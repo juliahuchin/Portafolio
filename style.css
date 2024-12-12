@@ -1,0 +1,100 @@
+/* Para agregar los tipo de letra especifico basta con una id o etiqueta especifica ahi se pone */
+
+/* Aqui se definen las variables especificas */
+/* Aun no los aplico */
+:root {
+    /* Esta es otra manera de poner los colores */
+    --color-primario: #e67e22; /* Naranja intenso */
+    --color-secundario: #d35400; /* Naranja oscuro */
+    --color-terciario: #f39c12; /* Amarillo anaranjado */
+    --backg: #fce5cd; /* Beige claro */
+    --color-input: #f6c5a1; /* Naranja pastel */
+    --color-input2: #a04000; /* Café anaranjado */
+    --text-size: 1.5rem;
+    /* Rem= respeta el tamaño de fuente de body (16 pix)*/
+    --color-text: #4a2c00; /* Café oscuro */
+}
+*{
+    font-family: "Jost", serif;
+}
+header{
+    /* Aqui iria el color de la paleta de colores elegida por mi*/
+    background-color: #d35400;
+}
+/* Para los iconos del footer */
+.nav-item {
+    color: #e67e22;
+}
+/* Para el boton de perfil/primer apartado */
+#perfil {
+    color: #a04000;
+}
+.concepto a:hover{
+    background-color: #f39c12;    
+}
+#app{
+    color: #a04000;
+}
+.boton-cv{
+    background-color: #e67e22;
+    /* Faltaria para el contorno */
+    color: #fce5cd;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    border-color: #e67e22;
+}
+.boton-cv:hover {
+    background-color: #d35400;
+    border-color: #a04000;
+}
+
+/* Para la sección de habilidades */
+.habilidades{
+    background-color: #f6c5a1;
+
+}
+/* Clase btn */
+.btn{
+    background-color: #f39c12;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #a04000;
+}
+.card .card-title{
+    color: #4a2c00;
+}
+
+/* testimonios */
+.card-title{
+    text-align: center;
+    margin-top: 18px;
+}
+.card-subtitle{
+    text-align: center;
+}
+.card-body{
+    text-align: justify;
+    font-size: 16px;
+
+}
+/* Por que es id */
+#contacto{
+    background-color: #e67e22;
+}
+#contacto p{
+    color: #4a2c00;
+}
+#btn-contacto{
+    background-color: #d35400;
+}
+#btn-contacto:hover{
+    background-color: #f39c12;
+    color: #a04000;
+}
+/* Color del footer */
+footer p{
+    color: #d35400;
+}

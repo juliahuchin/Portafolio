@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Español -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Linkeado -->
+  <!-- CDN BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- ICONOS BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Fav Icon -->
+  <!-- Para poner el icono en que se vea del lado del nombre en la pagina/Nota: agregarlo a pinterest -->
+  <link rel="shortcut icon" href="icons/star-fill.svg" type="image/x-icon">
+  <!-- Archvo Css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap"
+    rel="stylesheet">
+  <title>Julia Patricia Huchín</title>
+</head>
+<script src="main.js" defer></script>
+
+<body>
+  <header>
+    <div class="px-3 py-2 text-bg-border-bottom">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none fs-3">
+           
+            Página web personal
+          </a>
+          <!-- En esta pate falta linkear con el #Id/varios como habilidades -->
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small concepto">
+            <li>
+              <!-- Revisar cuadros de hover -->
+              <a id="#perfil" href="#" class="nav-link text-black">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
+                  <use xlink:href="#home"></use>
+                </svg>
+                Acerca de mí
+              </a>
+            </li>
+            <li>
+              <a href="#habilidades" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
+                  <use xlink:href="#speedometer2"></use>
+                </svg>
+                Habilidades
+              </a>
+            </li>
+            <li>
+              <a href="#proyectos" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
+                  <use xlink:href="#table"></use>
+                </svg>
+                Proyecto
+              </a>
+            </li>
+            <li>
+              <a href="#testimonios" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
+                  <use xlink:href="#grid"></use>
+                </svg>
+                Colaboraciones
+              </a>
+            </li>
+            <li>
+              <a href="#contacto" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
+                  <use xlink:href="#people-circle"></use>
+                </svg>
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!--Heroo-->
+    <div class="hero">
+      <!-- Padding en x=px Padding en y= py -->
+      <div id="perfil" class="px-4 py-5 my-5 text-center">
+        <!-- Imagen personal-->
+        <img class="d-block mx-auto mb-5 rounded-circle" src="https://i.postimg.cc/GmNMvZfq/Captura-de-Pantalla-2024-12-11-a-la-s-20-26-17.png" alt="100" width="200" height="250">
+        <h1 class="display-5 fw-bold">Julia Patricia Huchín</h1>
+        <!-- texto typewriter-->
+        <h2 id="app"></h2>
+        <div class="col-lg-6 mx-auto">
+          <!-- Informacion personal -->
+          <p class="lead mb-4 text-center">¡Soy una persona siempre dispuesta a aprender!</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <!-- Para poner eñ link de mi cv -->
+            <button type="button" class="btn-lg px-4 gap-2 boton-cv">Conoce mi trayectoria</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Habilidades -->
+    <div id="habilidades" class="caja-habilidades">
+        <div class="habilidades container px-4 py-5">
+          <h2 class="pb-2 border-bottom">Habilidades</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <!-- Ciencia de Datos -->
+            <div class="col d-flex align-items-start">
+              <div
+                class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="bi bi-laptop fs-3"></i>
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Ciencia de Datos</h3>
+                <p>Análisis de grandes cantidades de datos</p>
+              </div>
+            </div>
+      
+            <!-- Experiencia en laboratorio -->
+            <div class="col d-flex align-items-start">
+              <div
+                class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <img src="https://i.postimg.cc/85FfM0qB/test-tube-4796971.png" alt="Test Tube Icon" style="width: 40px; height: 40px;">
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Experiencia en laboratorio</h3>
+                <p>Diferentes ensayos biológicos y moleculares</p>
+              </div>
+            </div>
+      
+            <!-- Desarrollo web -->
+            <div class="col d-flex align-items-start">
+              <div
+                class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <img src="https://i.postimg.cc/vBdwt1Kq/web-browser-17189694.png" alt="Globe Icon" style="width: 40px; height: 40px;">
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
+                <p>CSS y HTML</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- Proyectos -->
+    <div id="proyectos" class="proyectos container mt-5">
+      <!-- División de sección -->
+      <h2 class="pb-2 border-bottom">Proyectos</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <!-- Imagen 1: Primer sitio -->
+            <div class="card-body">
+              <p class="Mi primer sitio web">Mi primer sitio web</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                      href="https://sitio-web-basico-tkk5qz6a6-dayaanalys-projects.vercel.app/?vercelToolbarCode=Zr8ZMA_LKTurGnA">Ver</a></button>
+                  <button type="button" class="btn btn-proyecto btn-sm btn-outline-secondary"><a target="_blank"
+                      href="https://github.com/Dayaanaly/Sitio_web_basico">Github</a></button>
+                </div>
+                <!-- Agregar el lenguaje de programacion -->
+                <small class="text-body-secondary">HTML & CSS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- agregar card -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <!-- Imagen 2: Pinterest clon -->
+            <div class="card-body">
+              <p class="Clon de Pinterest"> Clon de Pinterest</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!-- Botones para visualizar detalles del proyecto -->
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                      href="https://pinterestclon-nine.vercel.app/">Ver</a></button>
+
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                      href="https://github.com/Dayaanaly/Pinterest_clon">Github</a></button>
+                </div>
+                <!-- Lenguaje de programación -->
+                <small class="text-body-secondary">HTML & CSS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+    </div>
+
+   <!-- Testimonios -->
+<div id="testimonios" class="testimonios container mt-5">
+    <h2 class="pb-2 border-bottom">Colaboraciones</h2>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+
+            <!-- Primer Testimonio (Active) -->
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                    <div class="card border-0" style="width: 20rem;">
+                        <img src="https://plus.unsplash.com/premium_photo-1689551670902-19b441a6afde?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww" class="card-img-top rounded-circle" alt="Dr. Andrea Morales">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Dr. Andrea Morales</h4>
+                            <h5 class="card-subtitle text-muted">Asesora Académica</h5>
+                            <p class="card-text">"Julia demuestra un compromiso excepcional en todo lo que hace. Su habilidad para abordar problemas complejos con soluciones innovadoras es inspiradora."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo Testimonio -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card border-0" style="width: 20rem;">
+                        <img src="https://plus.unsplash.com/premium_photo-1689530775582-83b8abdb5020?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww" class="card-img-top rounded-circle" alt="Ing. Roberto Sánchez">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Ing. Roberto Sánchez</h4>
+                            <h5 class="card-subtitle text-muted">Colega de proyecto</h5>
+                            <p class="card-text">"Trabajar con Julia fue un placer. Su liderazgo y capacidad para trabajar en equipo hicieron que lográramos resultados impresionantes."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tercer Testimonio -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card border-0" style="width: 20rem;">
+                        <img src="https://plus.unsplash.com/premium_photo-1688350808212-4e6908a03925?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyZmlsJTIwcHJvZmVzaW9uYWx8ZW58MHx8MHx8fDA%3D" class="card-img-top rounded-circle" alt="Mtra. Laura Pérez">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Mtra. Laura Pérez</h4>
+                            <h5 class="card-subtitle text-muted">Profesora de Biología Molecular</h5>
+                            <p class="card-text">"Julia destaca por su pasión y profundidad en la investigación científica. Su curiosidad intelectual es contagiosa."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+  
+
+      <!-- Contacto -->
+      <div id="contacto" class="px-4 py-5 my-5 text-center">
+        <i class="d-block mx-auto mb-4 fs-1 bi bi-envelope-check-fill"></i>
+        <h1 class="display-5 fw-bold text-body-emphasis">Contáctame</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4"> Inicia conmigo ahora mismo un proyecto de desarollo web o consultoría científica </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <!-- Mailto=Escribe el correo y texto -->
+            <a href="mail:huchin.0201@gmail.com">
+              <!-- Ejemplo: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_mailto_subject -->
+              <button id="btn-contacto" type="button" class="btn btn-lg px-4 gap-3">Mandar correo
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+  </main>
+  <!-- Fuera del main -->
+  <!-- Footer -->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"> <i class="fs-3 bi bi-github"></i><a href="https://github.com/Dayaanaly" target="_blank" class="nav-link px-4 "></a></li>
+     <!-- Checar por que los href no me llevan a las direcciones desde los iconos -->
+      <li class="nav-item"><i class="fs-3 bi bi-linkedin"></i><a href="#" class="nav-link px-4 "></a></li>
+
+      <li class="nav-item"><i class="fs-3 bi bi-discord"></i><a href="#" class="nav-link px-4 "></a></li>
+
+      <li class="nav-item"><i class="fs-3 bi bi-twitch"></i><a href="#" class="nav-link px-4 "></a></li>
+
+      <!-- Tienes que compartir una liga desde whatsapp-->
+      <!-- https://wa.me/555555555
+ -->
+      <li class="nav-item"><i class="fs-3 bi bi-whatsapp"></i><a href="https://web.whatsapp.com/" target="_blank" class="nav-link px-2 "></a></li>
+    </ul>
+    <p class="text-center">Creado por Julia Patricia Huchín en el bootcamp de Tecnolochicas Pro @2024</p>
+  </footer>
+
+
+  <!-- Nota: por cierto, para whats es https://wa.me/<tu numero> -->
+
+  <!-- El script siempre va al final del body -->
+
+  <!-- Bootstrap -->
+  <!-- Script= indicaciones especificas o funciones -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- CDN TypewriterJS -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- Main JS -->
+  <!-- Tiene que ir abajo del typewriter por que si no funciona -->
+  <script scr="main.js"></script>
+</body>
+
+</html>
